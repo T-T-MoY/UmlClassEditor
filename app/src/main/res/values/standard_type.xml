@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="standard_types">
+        <item>void</item>
+        <item>byte</item>
+        <item>short</item>
+        <item>int</item>
+        <item>long</item>
+        <item>float</item>
+        <item>double</item>
+        <item>char</item>
+        <item>boolean</item>
+        <item>string</item>
+    </array>
+</resources>

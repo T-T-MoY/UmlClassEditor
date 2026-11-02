@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores del lienzo del diagrama UML en modo oscuro -->
+    <color name="graph_background">#050B14</color>
+    <color name="graph_foreground">#F8FAFC</color>
+    <color name="graph_line">#CBD5E1</color>
+    <color name="graph_solid_fill">#0D1321</color>
+</resources>

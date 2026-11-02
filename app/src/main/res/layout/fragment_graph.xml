@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?android:windowBackground"
+    tools:context=".view.GraphFragment">
+
+    <com.nathaniel.motus.umlclasseditor.view.GraphView
+        android:id="@+id/graphview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="85" />
+
+    <TextView
+        android:id="@+id/graph_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="8dp"
+        android:textAlignment="center"
+        android:textColor="?attr/colorPrimary"
+        android:textStyle="bold"
+        tools:text="@string/graph_prompt_choose_start_class" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        app:cardBackgroundColor="?attr/colorSurface"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="8dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="4"
+            android:padding="8dp">
+
+            <ImageButton
+                android:id="@+id/inheritance_button"
+                style="?attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_columnWeight="1"
+                android:contentDescription="@string/relation_inheritance"
+                android:scaleType="fitCenter"
+                android:src="@drawable/inheritance"
+                app:tint="?android:textColorPrimary" />
+
+            <ImageButton
+                android:id="@+id/realization_button"
+                style="?attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_columnWeight="1"
+                android:contentDescription="@string/relation_realization"
+                android:scaleType="fitCenter"
+                android:src="@drawable/realization"
+                app:tint="?android:textColorPrimary" />
+
+            <ImageButton
+                android:id="@+id/aggregation_button"
+                style="?attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_columnWeight="1"
+                android:contentDescription="@string/relation_aggregation"
+                android:scaleType="fitCenter"
+                android:src="@drawable/aggregation"
+                app:tint="?android:textColorPrimary" />
+
+            <ImageButton
+                android:id="@+id/composition_button"
+                style="?attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_columnWeight="1"
+                android:contentDescription="@string/relation_composition"
+                android:scaleType="fitCenter"
+                android:src="@drawable/composition"
+                app:tint="?android:textColorPrimary" />
+
+            <ImageButton
+                android:id="@+id/association_button"
+                style="?attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_columnWeight="1"
+                android:contentDescription="@string/relation_association"
+                android:scaleType="fitCenter"
+                android:src="@drawable/association"
+                app:tint="?android:textColorPrimary" />
+
+            <ImageButton
+                android:id="@+id/directed_association_button"
+                style="?attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_columnWeight="1"
+                android:contentDescription="@string/relation_directed_association"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_association_directed"
+                app:tint="?android:textColorPrimary" />
+
+            <ImageButton
+                android:id="@+id/bidirectional_association_button"
+                style="?attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_columnWeight="1"
+                android:contentDescription="@string/relation_bidirectional_association"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_association_bidirectional"
+                app:tint="?android:textColorPrimary" />
+
+            <ImageButton
+                android:id="@+id/dependency_button"
+                style="?attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_columnWeight="1"
+                android:contentDescription="@string/relation_dependency"
+                android:scaleType="fitCenter"
+                android:src="@drawable/dependency"
+                app:tint="?android:textColorPrimary" />
+
+            <Button
+                android:id="@+id/escape_button"
+                style="?attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_columnWeight="1"
+                android:contentDescription="@string/action_cancel"
+                android:text="@string/graph_button_escape"
+                android:textColor="@color/danger_red"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/new_class_button"
+                style="?attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_columnWeight="1"
+                android:contentDescription="@string/action_new_class"
+                android:text="@string/graph_button_new_class"
+                android:textColor="?attr/colorPrimary"
+                android:textStyle="bold" />
+
+        </GridLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

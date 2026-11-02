@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Editor de Clases UML</string>
+    <string name="navigation_drawer_open">Abrir menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar menú de navegación</string>
+
+    <!-- Listas del editor de clases -->
+    <string name="new_attribute_string">Nuevo atributo...</string>
+    <string name="new_method_string">Nuevo método...</string>
+    <string name="attributes_string">Atributos</string>
+    <string name="methods_string">Métodos</string>
+    <string name="new_value_string">Nuevo valor...</string>
+    <string name="values_string">Valores</string>
+    <string name="parameters_string">Parámetros</string>
+    <string name="new_parameter_string">Nuevo parámetro...</string>
+
+    <!-- Proyecto -->
+    <string name="default_project_name">NuevoProyecto</string>
+    <string name="default_diagram_filename">diagrama</string>
+
+    <!-- Menú lateral -->
+    <string name="drawer_new_project">Nuevo proyecto</string>
+    <string name="drawer_load_project">Cargar proyecto</string>
+    <string name="drawer_save_as">Guardar como</string>
+    <string name="drawer_merge_project">Fusionar proyecto</string>
+    <string name="drawer_management">Gestión</string>
+    <string name="drawer_delete_project">Eliminar proyecto</string>
+    <string name="drawer_theme">Tema</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+
+    <!-- Menú de la barra superior -->
+    <string name="menu_export_project">Exportar proyecto (texto)</string>
+    <string name="menu_import_project">Importar proyecto</string>
+    <string name="menu_export_image">Exportar como imagen (JPG)</string>
+    <string name="menu_create_custom_type">Crear tipo personalizado</string>
+    <string name="menu_delete_custom_types">Eliminar tipos personalizados</string>
+    <string name="menu_export_custom_types">Exportar tipos personalizados</string>
+    <string name="menu_import_custom_types">Importar tipos personalizados</string>
+    <string name="menu_help">Ayuda</string>
+
+    <!-- Editor de clase -->
+    <string name="title_class_management">Gestión de Clase</string>
+    <string name="subtitle_class_management">Visualiza y configura los detalles de la clase UML.</string>
+    <string name="title_create_class">Crear clase</string>
+    <string name="title_edit_class">Editar clase</string>
+    <string name="hint_class_name">Nombre de la Clase</string>
+    <string name="label_structure_type">Tipo de Estructura</string>
+    <string name="class_type_java">Java</string>
+    <string name="class_type_abstract">Abstracta</string>
+    <string name="class_type_interface">Interfaz</string>
+    <string name="class_type_enum">Enumeración</string>
+
+    <!-- Editor de atributo -->
+    <string name="title_attribute_management">Gestión de Atributo</string>
+    <string name="subtitle_attribute_management">Configura el nombre, visibilidad y tipo del atributo.</string>
+    <string name="title_create_attribute">Crear atributo</string>
+    <string name="title_edit_attribute">Editar atributo</string>
+    <string name="hint_attribute_name">Nombre del Atributo</string>
+    <string name="label_visibility">Visibilidad</string>
+    <string name="visibility_public">Público</string>
+    <string name="visibility_protected">Protegido</string>
+    <string name="visibility_private">Privado</string>
+    <string name="label_static">Estático</string>
+    <string name="label_final">Final</string>
+    <string name="label_type">Tipo:</string>
+    <string name="label_multiplicity">Multiplicidad</string>
+    <string name="multiplicity_single">Simple</string>
+    <string name="multiplicity_collection">Colección</string>
+    <string name="multiplicity_array">Arreglo</string>
+    <string name="hint_dimension">Dim.</string>
+
+    <!-- Editor de método -->
+    <string name="title_method_management">Gestión de Método</string>
+    <string name="subtitle_method_management">Configura las propiedades y parámetros del método.</string>
+    <string name="title_create_method">Crear método</string>
+    <string name="title_edit_method">Editar método</string>
+    <string name="hint_method_name">Nombre del Método</string>
+    <string name="label_return_type">Retorno:</string>
+
+    <!-- Editor de parámetro -->
+    <string name="title_parameter_management">Gestión de Parámetro</string>
+    <string name="subtitle_parameter_management">Define el nombre, tipo y multiplicidad.</string>
+    <string name="title_create_parameter">Crear parámetro</string>
+    <string name="title_edit_parameter">Editar parámetro</string>
+    <string name="hint_parameter_name">Nombre del Parámetro</string>
+    <string name="label_data_type">Tipo de Dato</string>
+
+    <!-- Lienzo del diagrama -->
+    <string name="graph_button_escape">SALIR</string>
+    <string name="graph_button_new_class">+ CLASE</string>
+    <string name="graph_prompt_locate_class">Ubica la nueva clase en el lienzo</string>
+    <string name="graph_prompt_choose_start_class">Selecciona la clase de origen</string>
+    <string name="graph_prompt_choose_end_class">Selecciona la clase de destino</string>
+    <string name="relation_inheritance">Herencia</string>
+    <string name="relation_realization">Realización</string>
+    <string name="relation_aggregation">Agregación</string>
+    <string name="relation_association">Asociación</string>
+    <string name="relation_directed_association">Asociación dirigida</string>
+    <string name="relation_bidirectional_association">Asociación bidireccional</string>
+    <string name="relation_composition">Composición</string>
+    <string name="relation_dependency">Dependencia</string>
+    <string name="action_cancel">Cancelar acción actual</string>
+    <string name="action_new_class">Crear nueva clase</string>
+
+    <!-- Botones y acciones comunes -->
+    <string name="button_ok">ACEPTAR</string>
+    <string name="button_cancel">CANCELAR</string>
+    <string name="button_yes">SÍ</string>
+    <string name="button_no">NO</string>
+
+    <!-- Mensajes -->
+    <string name="toast_press_back_again">Pulsa atrás otra vez para salir</string>
+    <string name="toast_image_exported">Imagen JPG exportada correctamente</string>
+    <string name="toast_image_export_failed">No se pudo exportar la imagen</string>
+    <string name="toast_empty_project">El proyecto no tiene clases para exportar</string>
+    <string name="toast_custom_type_blank">No se pudo crear: el nombre no puede estar vacío</string>
+    <string name="toast_custom_type_exists">No se pudo crear: ese nombre ya está en uso</string>
+    <string name="toast_custom_type_created">Tipo personalizado creado</string>
+
+    <string name="error_class_name_blank">El nombre de la clase no puede estar vacío</string>
+    <string name="error_class_name_exists_project">Ya existe una clase con ese nombre en el proyecto</string>
+    <string name="error_class_name_exists_type">Ese nombre ya existe como tipo estándar o personalizado</string>
+    <string name="error_attribute_name_blank">El nombre del atributo no puede estar vacío</string>
+    <string name="error_method_name_blank">El nombre del método no puede estar vacío</string>
+    <string name="error_method_already_defined">Ese método ya está definido</string>
+    <string name="error_parameter_name_blank">El nombre del parámetro no puede estar vacío</string>
+    <string name="error_name_already_used">Ese nombre ya está en uso</string>
+
+    <!-- Diálogos -->
+    <string name="dialog_save_as_title">Guardar como</string>
+    <string name="dialog_save_as_message">Introduce el nuevo nombre:</string>
+    <string name="dialog_load_project_title">Cargar proyecto</string>
+    <string name="dialog_load_project_message">Elige el proyecto que quieres cargar:</string>
+    <string name="dialog_delete_project_title">Eliminar proyecto</string>
+    <string name="dialog_delete_project_message">Elige el proyecto que quieres eliminar:</string>
+    <string name="dialog_confirm_delete_project_title">Eliminar proyecto</string>
+    <string name="dialog_confirm_delete_project_message">¿Seguro que quieres eliminar %1$s?</string>
+    <string name="dialog_merge_project_title">Fusionar proyecto</string>
+    <string name="dialog_merge_project_message">Elige el proyecto que quieres fusionar:</string>
+    <string name="dialog_create_custom_type_title">Crear tipo personalizado</string>
+    <string name="dialog_create_custom_type_message">Introduce el nombre del tipo personalizado:</string>
+    <string name="dialog_delete_custom_types_title">Eliminar tipos personalizados</string>
+    <string name="dialog_delete_custom_types_message">Marca los tipos personalizados que quieres eliminar</string>
+    <string name="dialog_help_title">Ayuda</string>
+
+    <string name="dialog_add_value_title">Añadir un valor</string>
+    <string name="dialog_add_value_message">Introduce el valor:</string>
+    <string name="dialog_rename_value_title">Renombrar valor de enumeración</string>
+    <string name="dialog_rename_value_message">Introduce el nuevo nombre:</string>
+    <string name="dialog_delete_value_title">¿Eliminar valor?</string>
+    <string name="dialog_delete_value_message">¿Seguro que quieres eliminar este valor?</string>
+    <string name="dialog_delete_class_title">¿Eliminar clase?</string>
+    <string name="dialog_delete_class_message">¿Seguro que quieres eliminar esta clase?</string>
+    <string name="dialog_delete_attribute_title">¿Eliminar atributo?</string>
+    <string name="dialog_delete_attribute_message">¿Seguro que quieres eliminar este atributo?</string>
+    <string name="dialog_delete_method_title">¿Eliminar método?</string>
+    <string name="dialog_delete_method_message">¿Seguro que quieres eliminar este método?</string>
+    <string name="dialog_delete_parameter_title">¿Eliminar parámetro?</string>
+    <string name="dialog_delete_parameter_message">¿Seguro que quieres eliminar este parámetro?</string>
+    <string name="dialog_delete_relation_title">¿Eliminar relación?</string>
+    <string name="dialog_delete_relation_message">¿Seguro que quieres eliminar esta relación?</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="light_bg_body">#F1F5F9</color>
+    <color name="light_bg_card">#FFFFFF</color>
+    <color name="light_text_main">#0F172A</color>
+    <color name="light_text_muted">#64748B</color>
+    <color name="light_border">#E2E8F0</color>
+    <color name="light_neon_btn">#2563EB</color>
+    <color name="light_sidebar_top">#2563EB</color>
+    <color name="light_sidebar_bottom">#1E40AF</color>
+
+    <color name="dark_bg_body">#050B14</color>
+    <color name="dark_bg_card">#0D1321</color>
+    <color name="dark_text_main">#F8FAFC</color>
+    <color name="dark_text_muted">#8BA3CB</color>
+    <color name="dark_border">#1E293B</color>
+    <color name="dark_neon_btn">#3B82F6</color>
+    <color name="dark_sidebar_top">#0D1627</color>
+    <color name="dark_sidebar_bottom">#060A11</color>
+
+    <color name="danger_red">#DC3545</color>
+
+    <!-- Contraste sobre los colores de acento (botones, cabecera del menú) -->
+    <color name="on_primary">#FFFFFF</color>
+
+    <!-- Lienzo del diagrama UML (se sobrescriben en values-night) -->
+    <color name="graph_background">#F1F5F9</color>
+    <color name="graph_foreground">#0F172A</color>
+    <color name="graph_line">#334155</color>
+    <color name="graph_solid_fill">#FFFFFF</color>
+</resources>

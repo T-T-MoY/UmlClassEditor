@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/project_group"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/toolbar_menu_export"
+            app:showAsAction="never"
+            android:title="@string/menu_export_project" />
+        <item
+            android:id="@+id/toolbar_menu_import"
+            app:showAsAction="never"
+            android:title="@string/menu_import_project" />
+        <item
+            android:id="@+id/toolbar_menu_export_image"
+            app:showAsAction="never"
+            android:title="@string/menu_export_image" />
+    </group>
+
+    <group
+        android:id="@+id/custom_type_group"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/toolbar_menu_create_custom_type"
+            app:showAsAction="never"
+            android:title="@string/menu_create_custom_type" />
+        <item
+            android:id="@+id/toolbar_menu_delete_custom_types"
+            app:showAsAction="never"
+            android:title="@string/menu_delete_custom_types" />
+        <item
+            android:id="@+id/toolbar_menu_export_custom_types"
+            app:showAsAction="never"
+            android:title="@string/menu_export_custom_types" />
+        <item
+            android:id="@+id/toolbar_menu_import_custom_types"
+            app:showAsAction="never"
+            android:title="@string/menu_import_custom_types" />
+    </group>
+
+    <group
+        android:id="@+id/help_group"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/toolbar_menu_help"
+            app:showAsAction="never"
+            android:title="@string/menu_help" />
+    </group>
+
+</menu>

@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema oscuro. Se usa cuando el modo oscuro está activo. -->
+    <style name="Theme.UmlClassEditor" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/dark_neon_btn</item>
+        <item name="colorPrimaryVariant">@color/dark_sidebar_bottom</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+
+        <item name="colorSecondary">@color/dark_text_muted</item>
+        <item name="colorSecondaryVariant">@color/dark_text_muted</item>
+        <item name="colorOnSecondary">@color/on_primary</item>
+
+        <item name="colorSurface">@color/dark_bg_card</item>
+        <item name="colorOnSurface">@color/dark_text_main</item>
+        <item name="colorError">@color/danger_red</item>
+        <item name="colorOnError">@color/on_primary</item>
+        <item name="colorOutline">@color/dark_border</item>
+        <item name="colorControlNormal">@color/dark_text_muted</item>
+        <item name="colorControlActivated">@color/dark_neon_btn</item>
+
+        <item name="android:windowBackground">@color/dark_bg_body</item>
+        <item name="android:colorBackground">@color/dark_bg_body</item>
+        <item name="android:textColorPrimary">@color/dark_text_main</item>
+        <item name="android:textColorSecondary">@color/dark_text_muted</item>
+        <item name="android:textColorHint">@color/dark_text_muted</item>
+
+        <item name="android:statusBarColor">@color/dark_bg_card</item>
+        <item name="android:navigationBarColor">@color/dark_bg_body</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

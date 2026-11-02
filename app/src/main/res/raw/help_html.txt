@@ -1,0 +1,20 @@
+<p><strong>+ CLASE:</strong> crea una nueva clase; se te pedirá ubicarla tocando el lienzo.</p>
+<p><strong>RELACIONES:</strong> toca una de las flechas y después la clase de origen y la clase de destino.</p>
+<ul>
+    <li><strong>Herencia:</strong> línea continua con flecha triangular vacía.</li>
+    <li><strong>Realización:</strong> línea discontinua con flecha triangular vacía.</li>
+    <li><strong>Agregación:</strong> línea continua con rombo vacío.</li>
+    <li><strong>Composición:</strong> línea continua con rombo relleno.</li>
+    <li><strong>Asociación:</strong> línea continua sin flechas.</li>
+    <li><strong>Asociación dirigida:</strong> línea continua con flecha abierta en el destino.</li>
+    <li><strong>Asociación bidireccional:</strong> línea continua con flechas abiertas en ambos extremos.</li>
+    <li><strong>Dependencia:</strong> línea discontinua con flecha abierta.</li>
+</ul>
+<p><strong>SALIR:</strong> cancela la acción actual.</p>
+<p><strong>Mover una clase:</strong> mantenla pulsada y arrástrala.</p>
+<p><strong>Editar una clase:</strong> haz doble toque sobre ella.</p>
+<p><strong>Eliminar una relación:</strong> haz doble toque sobre la relación y confirma.</p>
+<p><strong>Desplazar el lienzo:</strong> pulsa y arrastra una zona vacía.</p>
+<p><strong>Ajustar el lienzo:</strong> haz doble toque en una zona vacía.</p>
+<p><strong>Zoom:</strong> pellizca o separa dos dedos.</p>
+<p><strong>Exportar:</strong> usa el menú superior para exportar el proyecto como texto o como imagen JPG.</p>
